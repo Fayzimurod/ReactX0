@@ -1,7 +1,10 @@
 import { useRef, useState } from "react";
 import "./TicTakToe.css";
-import circle_icon from "../Assets/circle.png";
-import cross_icon from "../Assets/cross.png";
+import circle_icon from "/public/circle.png";
+import cross_icon from "/public/cross.png";
+// const circle_icon = 
+// const cross_icon = 
+
 
 document.title = `Game X,0`
 let data = ["", "", "", "", "", "", "", "", "", ""];
